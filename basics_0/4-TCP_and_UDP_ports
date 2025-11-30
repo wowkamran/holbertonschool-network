@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # my comment
 
-# Display all listening TCP and UDP sockets with PID/Program name
-netstat -tulnp 2>/dev/null
+# Show all listening sockets with PID/Program name
+netstat -lp
