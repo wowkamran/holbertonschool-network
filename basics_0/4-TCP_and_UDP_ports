@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# 777
+# my comment
 
-
-# Show all listening sockets with PID/Program name
-netstat -lp
+netstat -tulnp
